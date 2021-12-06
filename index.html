@@ -28,12 +28,25 @@
     </header>
 
     <div id="content">
+      
       <main>
         <header id="blog-header">
           <h1>A step-by-step walk through of your first HTML page</h1>
         </header>
 
+        <div id="author-container">
+          <img src="image/author-pic.png" alt="author pic" id="author-img">
+
+          <span id="author-name">sourabhshrivastava</span>
+          <span id="author-name">Web Development</span>
+        </div>
+
         <article id="blog-content">
+          <div id="views">
+            <img src="image/signal.png" alt="signal image">
+            <span> Views: 1,137</span>
+          </div>
+
           <div id="blog-image-container">
             <img
               src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000010_1548494846_coding-ninjas-step-by-step.png"
@@ -410,6 +423,54 @@
           </section>
         </article>
       </main>
+
+      <aside>
+          <section id="subscription" class="widget">
+            <h4 class="widget-title">SUBSCRIBE NOW TO STAY UPDATED WITH NEW TECHNOLOGY TRENDS</h4>
+            <form action="">
+              <label for="input-name ">Name</label>
+              <input type="text" id="input-name">
+              <label for="input-email">Email*</label>
+              <input type="text" id="input-email">
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+          </section>
+          <section class="widget">
+            <form id="search" method="get">
+              <br>
+              <input type="text" placeholder="Search...">
+              <button><img src="image/search-icon.png" alt="search icon"></button>
+              
+            </form>
+          </section>
+          <section class="widget" id="recent-posts">
+            <h4 class="widget-title">recent posts</h4>
+            <li><a href="">Post 1</a></li>
+            <li><a href="">Post 2</a></li>
+            <li><a href="">Post 3</a></li>
+            <li><a href="">Post 4</a></li>
+          </section>
+
+          <section class="widget" id="recent-comments">
+            <h4 class="widget-title">recent comments</h4>
+            <li><a href="">Comment 1</a></li>
+            <li><a href="">Comment 2</a></li>
+            <li><a href="">Comment 3</a></li>
+            <li><a href="">Comment 4</a></li>
+          </section>
+
+          <section class="widget">
+            <h4 class="widget-title">categories</h4>
+            <li><a href="">Android</a></li>
+            <li><a href="">General</a></li>
+            <li><a href="">Interview Experience</li>
+            <li><a href="">Machine Learning</a></li>
+          </section>
+
+
+      </aside>
+
     </div>
+    
   </body>
 </html>
